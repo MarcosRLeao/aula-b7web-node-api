@@ -7,7 +7,7 @@ export interface PhrasesInstance extends Model{
     txt: string,
 } 
 
-export const Phrases = sequelize.define<PhrasesInstance>('ValidatorFepi',{
+export const Phrases = sequelize.define<PhrasesInstance>('Phrases',{
     id:{
         primaryKey: true,
         autoIncrement: true,
